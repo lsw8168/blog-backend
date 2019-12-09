@@ -7,17 +7,17 @@
     "@hapi/joi": "^16.1.8",
     "bcrypt": "^3.0.7",
     "dotenv": "^8.2.0",
-    "eslint-config-prettier": "^4.1.0",
+    "eslint-config-prettier": "^6.7.0",
     "esm": "^3.2.25",
     "jsonwebtoken": "^8.5.1",
     "koa": "^2.11.0",
     "koa-bodyparser": "^4.2.1",
     "koa-router": "^7.4.0",
-    "mongoose": "^5.7.13"
+    "mongoose": "^5.7.14"
   },
   "devDependencies": {
-    "eslint": "^5.16.0",
-    "nodemon": "^1.18.11"
+    "eslint": "^6.7.2",
+    "nodemon": "^2.0.1"
   },
   "scripts": {
     "start": "node -r esm src",
