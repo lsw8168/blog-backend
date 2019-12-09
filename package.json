@@ -9,6 +9,7 @@
     "dotenv": "^8.2.0",
     "eslint-config-prettier": "^4.1.0",
     "esm": "^3.2.25",
+    "jsonwebtoken": "^8.5.1",
     "koa": "^2.11.0",
     "koa-bodyparser": "^4.2.1",
     "koa-router": "^7.4.0",
