@@ -1,6 +1,12 @@
 import jwt from 'jsonwebtoken';
 import User from '../models/user';
 
+/*
+HEADER : 암호화 알고리즘, Token의 type
+PAYLOAD : 데이터
+VERIFY SIGNATURE : 데이터에 대한 무결성, 위조 방지를 위한 HMAC(해시 기반 메시지 인증 코드)
+*/
+
 const jwtMiddleware = async (ctx, next) => {
   const token = ctx.cookies.get('access_token');
   if (!token) return next(); // 토큰이 없음

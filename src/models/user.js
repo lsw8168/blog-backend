@@ -23,6 +23,11 @@ UserSchema.methods.serialize = function() {
   return data;
 };
 
+/*
+첫번째 파라미터는 토큰에 넣을 데이터,
+두번째는 비밀 키,
+세번째는 옵션
+*/
 UserSchema.methods.generateToken = function() {
   const token = jwt.sign(
     {
